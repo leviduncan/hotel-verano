@@ -145,7 +145,7 @@ This decouples all React components from the WordPress data shape. If the CMS ch
 
 Both the homepage and room detail page are **async React Server Components**:
 
-```ts
+```ts 
 // app/page.tsx
 export default async function Page() {
   const data = await gqlClient.request(GET_FEATURED_ROOMS)
