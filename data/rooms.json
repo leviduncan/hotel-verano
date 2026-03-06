@@ -1,0 +1,171 @@
+[
+  {
+    "id": "deluxe-king-room",
+    "slug": "deluxe-king-room",
+    "name": "Deluxe King Room",
+    "shortDescription": "A sun-drenched sanctuary with a king bed, warm linen, and afternoon light.",
+    "longDescription": "The Deluxe King Room offers 38 square metres of thoughtfully curated comfort. Warm natural light filters through floor-length sheer curtains, illuminating hand-selected furnishings and tactile textiles. A rain shower, Nespresso machine, and pillow menu ensure your every preference is met.",
+    "pricePerNight": 289,
+    "bedType": "King",
+    "capacity": 2,
+    "sizeSqm": 38,
+    "images": [
+      { "src": "https://images.unsplash.com/photo-1618773928121-c32242e63f39?q=80&w=2070&auto=format&fit=crop", "alt": "Sunlit Deluxe King Room with king bed, champagne linen, and sheer curtains filtering afternoon light", "width": 1600, "height": 1200 },
+      { "src": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=2070&auto=format&fit=crop", "alt": "Freestanding bathtub in the Deluxe King Room bathroom with marble flooring and gold fixtures", "width": 1600, "height": 1200 }
+    ],
+    "amenities": [
+      { "icon": "Wifi", "label": "High-Speed WiFi" },
+      { "icon": "Coffee", "label": "Nespresso Machine" },
+      { "icon": "Bath", "label": "Rainfall Shower" },
+      { "icon": "Wind", "label": "Air Conditioning" },
+      { "icon": "Tv", "label": "55\" Smart TV" },
+      { "icon": "Shield", "label": "In-Room Safe" },
+      { "icon": "UtensilsCrossed", "label": "Room Service" },
+      { "icon": "Star", "label": "Evening Turndown" }
+    ],
+    "availability": {
+      "bookedDates": ["2026-03-20", "2026-03-21", "2026-03-22", "2026-04-10", "2026-04-11"]
+    },
+    "badge": "Available",
+    "featured": true,
+    "order": 1
+  },
+  {
+    "id": "garden-suite",
+    "slug": "garden-suite",
+    "name": "Garden Suite",
+    "shortDescription": "Elegant suite with private garden terrace and indoor-outdoor living aesthetic.",
+    "longDescription": "Our Garden Suite seamlessly blends indoor elegance with outdoor tranquility. Featuring open French doors that lead to a private terrace adorned with terracotta planters and trailing jasmine, this suite offers a unique sanctuary for those seeking a connection with nature without sacrificing luxury.",
+    "pricePerNight": 450,
+    "bedType": "Suite",
+    "capacity": 3,
+    "sizeSqm": 52,
+    "images": [
+      { "src": "https://images.unsplash.com/photo-1590490360182-c33d57733427?q=80&w=1974&auto=format&fit=crop", "alt": "Garden Suite interior with open French doors leading to a private terrace", "width": 1600, "height": 1200 },
+      { "src": "https://images.unsplash.com/photo-1596591606975-97ee5cef3a1e?q=80&w=1992&auto=format&fit=crop", "alt": "Private terrace of the Garden Suite at dusk", "width": 1600, "height": 1200 }
+    ],
+    "amenities": [
+      { "icon": "Wifi", "label": "High-Speed WiFi" },
+      { "icon": "Coffee", "label": "Nespresso Machine" },
+      { "icon": "Bath", "label": "Rainfall Shower" },
+      { "icon": "Wind", "label": "Air Conditioning" },
+      { "icon": "Leaf", "label": "Private Garden" },
+      { "icon": "Wine", "label": "Mini Bar" }
+    ],
+    "availability": {
+      "bookedDates": ["2026-03-15", "2026-03-16"]
+    },
+    "badge": "Limited",
+    "featured": true,
+    "order": 2
+  },
+  {
+    "id": "classic-twin-room",
+    "slug": "classic-twin-room",
+    "name": "Classic Twin Room",
+    "shortDescription": "Calm and restful atmosphere with two pristine beds and soft morning light.",
+    "longDescription": "The Classic Twin Room is designed for shared comfort. Two neatly made beds with crisp white linens are set against a neutral palette of warm ivory and sand. A small writing desk and soft lighting create a peaceful environment for relaxation or light work.",
+    "pricePerNight": 240,
+    "bedType": "Twin",
+    "capacity": 2,
+    "sizeSqm": 32,
+    "images": [
+      { "src": "https://images.unsplash.com/photo-1566665797739-1674de7a421a?q=80&w=1974&auto=format&fit=crop", "alt": "Classic Twin Room with two pristine white beds", "width": 1600, "height": 1200 }
+    ],
+    "amenities": [
+      { "icon": "Wifi", "label": "High-Speed WiFi" },
+      { "icon": "Wind", "label": "Air Conditioning" },
+      { "icon": "Tv", "label": "43\" Smart TV" },
+      { "icon": "Shield", "label": "In-Room Safe" }
+    ],
+    "availability": {
+      "bookedDates": []
+    },
+    "badge": "Available",
+    "featured": true,
+    "order": 3
+  },
+  {
+    "id": "panoramic-penthouse",
+    "slug": "panoramic-penthouse",
+    "name": "Panoramic Penthouse",
+    "shortDescription": "The ultimate luxury experience with floor-to-ceiling city views and expansive living space.",
+    "longDescription": "Perched on the top floor, the Panoramic Penthouse offers unparalleled views of the city skyline. This expansive suite features a grand living area, a private dining room, and a master bedroom with a spa-inspired bathroom. Every corner is designed to provide the ultimate in luxury and privacy.",
+    "pricePerNight": 850,
+    "bedType": "Suite",
+    "capacity": 4,
+    "sizeSqm": 120,
+    "images": [
+      { "src": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?q=80&w=2070&auto=format&fit=crop", "alt": "Panoramic Penthouse living area with floor-to-ceiling windows", "width": 1600, "height": 1200 },
+      { "src": "https://images.unsplash.com/photo-1590490359683-658d3d23f972?q=80&w=1974&auto=format&fit=crop", "alt": "Penthouse master bedroom with city views", "width": 1600, "height": 1200 }
+    ],
+    "amenities": [
+      { "icon": "Wifi", "label": "Ultra-Fast WiFi" },
+      { "icon": "Coffee", "label": "Premium Espresso Bar" },
+      { "icon": "Bath", "label": "Jacuzzi Tub" },
+      { "icon": "Wind", "label": "Climate Control" },
+      { "icon": "Wine", "label": "Private Wine Cellar" },
+      { "icon": "UtensilsCrossed", "label": "Private Chef Service" }
+    ],
+    "availability": {
+      "bookedDates": ["2026-03-25", "2026-03-26"]
+    },
+    "badge": "Limited",
+    "featured": false,
+    "order": 4
+  },
+  {
+    "id": "executive-suite",
+    "slug": "executive-suite",
+    "name": "Executive Suite",
+    "shortDescription": "Sophisticated space designed for the modern professional, blending work and relaxation.",
+    "longDescription": "Our Executive Suite is the perfect choice for business travelers who require both a productive workspace and a refined place to unwind. Featuring a dedicated office area, high-speed connectivity, and a plush king bed, this suite ensures you stay at the top of your game.",
+    "pricePerNight": 380,
+    "bedType": "King",
+    "capacity": 2,
+    "sizeSqm": 45,
+    "images": [
+      { "src": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?q=80&w=2070&auto=format&fit=crop", "alt": "Executive Suite with dedicated workspace and king bed", "width": 1600, "height": 1200 }
+    ],
+    "amenities": [
+      { "icon": "Wifi", "label": "High-Speed WiFi" },
+      { "icon": "Coffee", "label": "Nespresso Machine" },
+      { "icon": "Tv", "label": "65\" Smart TV" },
+      { "icon": "Shield", "label": "In-Room Safe" },
+      { "icon": "Wind", "label": "Air Conditioning" }
+    ],
+    "availability": {
+      "bookedDates": []
+    },
+    "badge": "Available",
+    "featured": false,
+    "order": 5
+  },
+  {
+    "id": "family-connecting-room",
+    "slug": "family-connecting-room",
+    "name": "Family Connecting Room",
+    "shortDescription": "Spacious and versatile layout with two connected rooms, perfect for families.",
+    "longDescription": "Designed with families in mind, our Connecting Rooms provide the perfect balance of togetherness and privacy. With two separate bedrooms and bathrooms linked by a private internal door, this setup offers ample space for everyone to relax and enjoy their stay.",
+    "pricePerNight": 420,
+    "bedType": "Double",
+    "capacity": 4,
+    "sizeSqm": 65,
+    "images": [
+      { "src": "https://images.unsplash.com/photo-1595576508898-0ad5c879a061?q=80&w=1974&auto=format&fit=crop", "alt": "Family Connecting Room with spacious layout", "width": 1600, "height": 1200 }
+    ],
+    "amenities": [
+      { "icon": "Wifi", "label": "High-Speed WiFi" },
+      { "icon": "Tv", "label": "Two Smart TVs" },
+      { "icon": "Wind", "label": "Individual Climate Control" },
+      { "icon": "Coffee", "label": "Coffee & Tea Station" },
+      { "icon": "Users", "label": "Connecting Door" }
+    ],
+    "availability": {
+      "bookedDates": ["2026-04-05", "2026-04-06"]
+    },
+    "badge": "Available",
+    "featured": false,
+    "order": 6
+  }
+]
