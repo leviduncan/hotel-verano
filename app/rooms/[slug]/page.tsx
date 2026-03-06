@@ -5,9 +5,14 @@ import InquiryForm from '@/components/InquiryForm'
 import RoomGallery from '@/components/rooms/RoomGallery'
 import AvailabilityCalendar from '@/components/rooms/AvailabilityCalendar'
 import { gqlClient } from '@/lib/graphql'
-import { GET_ROOM_BY_SLUG } from '@/lib/queries/rooms'
+import { GET_ROOM_BY_SLUG, GET_ALL_ROOMS } from '@/lib/queries/rooms'
 import { adaptWPRoomDetail } from '@/lib/adapters'
 import type { Room as WPRoom } from '@/lib/types/room'
+
+export async function generateStaticParams() {
+  const data = await gqlClient.request<{ rooms: { nodes: WPRoom[] } }>(GET_ALL_ROOMS)
+  return data.rooms.nodes.map(room => ({ slug: room.slug }))
+}
 
 const iconMap: Record<string, React.ReactNode> = {
   Wifi: <Wifi size={20} />,

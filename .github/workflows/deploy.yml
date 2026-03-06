@@ -1,9 +1,9 @@
-name: Deploy NextJS Site via SFTP
+name: Deploy Hotel Verano via SFTP
 
 on:
   push:
     branches:
-      - main  # Change if needed
+      - main
 
 jobs:
   build-and-deploy:
@@ -11,18 +11,25 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Setup Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: 20
+          cache: 'npm'
 
       - name: Install dependencies
         run: npm ci
 
-      - name: Build Vite site
+      - name: Build Next.js site
         run: npm run build
+        env:
+          NEXT_PUBLIC_WP_GRAPHQL_URL: ${{ secrets.NEXT_PUBLIC_WP_GRAPHQL_URL }}
+          NEXT_PUBLIC_SITE_URL: ${{ secrets.NEXT_PUBLIC_SITE_URL }}
+
+      - name: Rename output to dist
+        run: mv out dist
 
       - name: Deploy via SFTP
         uses: appleboy/scp-action@v0.1.6
@@ -33,14 +40,3 @@ jobs:
           port: 22
           source: ./dist/
           target: "/srv/hotel"
-
-      - name: Reload Caddy
-        uses: appleboy/ssh-action@v0.1.10
-        with:
-          host: ${{ secrets.SERVER_HOST }}
-          username: ${{ secrets.SERVER_USERNAME }}
-          password: ${{ secrets.SERVER_PASSWORD }}
-          port: 22
-          script: |
-            sudo systemctl reload caddy
-
