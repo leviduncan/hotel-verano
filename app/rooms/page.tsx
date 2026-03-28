@@ -6,7 +6,6 @@ import { SearchX, SlidersHorizontal } from 'lucide-react';
 import RoomCard from '@/components/RoomCard';
 import roomsData from '@/data/rooms.json';
 import { Room } from '../types';
-import { cn } from '@/lib/utils';
 
 const rooms = roomsData as unknown as Room[];
 
